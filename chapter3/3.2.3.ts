@@ -1,0 +1,18 @@
+let researcher = Math.random() > 0.5 ? "Rasalind Franklin" : 51;
+
+if (typeof researcher === 'string') {
+    researcher.toUpperCase();
+}
+
+researcher.toUpperCase();
+
+if (!(typeof researcher === 'string')) {
+    researcher.toFixed();
+} else {
+    researcher.toUpperCase();
+}
+
+
+typeof researcher === 'string' ? researcher.toUpperCase() : researcher.toFixed();
+
+
