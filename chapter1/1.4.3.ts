@@ -10,3 +10,6 @@ function paintPainting(painter: Painter, painting: string) {
     /* */
     return false;
 }
+
+
+export {};

@@ -4,3 +4,5 @@ function paintPainting(painter, painting) {
         .paint(painting, painter.ownMaterials)
         .finish();
 }
+
+export {}; 
