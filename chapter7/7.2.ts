@@ -102,7 +102,7 @@ hasCallCount = doesNotHaveCount;
 
 // 인덱스 시그니처
 interface WordCounts {
-    [i: string]: number;
+    [i: number]: number;
 }
 
 type WordCounts2 = {
@@ -124,6 +124,8 @@ counts1.apple2 = 'dwdwdw';
 
 counts1[2] = 0;
 counts1[1] = 1;
+
+counts1['wdwdw'] = 0;
 
 const publishDates: DatesByName = {
     AAAA: new Date(),
@@ -147,6 +149,8 @@ const novels3: HistoricalNovels = {
     Oroonoko: 1212121,
     dwwdwdwd: 1212121,
 };
+
+type Key = 'aaa' | 'bbbb' | 'cccc';
 
 interface MoreNarrowNumbers {
     [i: number]: string;

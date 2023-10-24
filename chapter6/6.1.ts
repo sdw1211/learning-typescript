@@ -1,6 +1,6 @@
 let arrayOfNumbers: number[];
 
-arrayOfNumbers = [4,8,15,16,23,42];
+arrayOfNumbers = [4,8,15,16,23,42,'ㅈㅇㅈㅇㅈㅇㅈ'];
 
 let createStrings: () => string[];
 let stringCreator: (() => string)[];

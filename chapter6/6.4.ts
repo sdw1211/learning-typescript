@@ -1,5 +1,4 @@
 let yearAndWarrior: [number, string];
-
 yearAndWarrior = [530, 'aaaa'];
 yearAndWarrior = [false, 'bbbb'];
 
@@ -69,7 +68,7 @@ const [firstChar2, size2] = firstCharAndSizeExplicit('Gwdwdw');
 // const 어셔션
 // readlonly이기 때문에 수정이 불가
 // 이게 가장 나아보이나?
-
+const aaa ='1111';
 const readonlyTuple = [1157, 'aaaa'] as const;
 
 readonlyTuple[0] = 111;
